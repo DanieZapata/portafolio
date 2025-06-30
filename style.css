@@ -33,6 +33,10 @@ body {
   z-index: -1;
 }
 
+main{
+ padding: 0 100px;
+}
+
 @keyframes gradient {
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
@@ -230,11 +234,11 @@ footer {
   }
 
   .about-text {
-    order: 1;
+    order: 2;
   }
 
   .about-photo {
-    order: 2;
+    order: 1;
   }
 
   nav {

@@ -1,87 +1,159 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Portafolio - Daniela Zapata</title>
-  
-  <link rel="stylesheet" href="style.css" />
-  
-  <!-- Font Awesome para íconos -->
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-  />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio - Daniela Zapata</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awesome para íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
+
 <body>
-  <div class="background"></div>
+    <div class="background"></div>
 
-  <header>
-    <h1>Daniela Zapata</h1>
-    <p>Desarrolladora Frontend | UI/UX Designer</p>
-    <nav>
-      <a href="#about">Sobre mí</a>
-      <a href="#projects">Proyectos</a>
-      <a href="#contact">Contacto</a>
-    </nav>
-  </header>
+    <header>
+        <h1>Daniela Zapata</h1>
+        <p>Desarrolladora Frontend | UI/UX Designer</p>
+        <nav>
+            <a href="#about">Sobre mí</a>
+            <a href="#projects">Proyectos</a>
+            <a href="#contact">Contacto</a>
+        </nav>
+    </header>
 
-  <main>
-    <section id="about">
-      <div class="about-container">
-        <div class="about-text">
-          <h2>Sobre mí</h2>
-          <p>Hola, soy Daniela, estudiante de Ingeniería de Sistemas. Me apasiona el desarrollo frontend y el diseño UI/UX. Me enfoco en construir interfaces web modernas, limpias y funcionales, siempre pensando en la experiencia del usuario.</p>
-        </div>
-        <div class="about-photo">
-          <img src="assets/profile.jpg" alt="Foto de perfil">
-        </div>
-      </div>
-    </section>
+    <main>
+        <section id="about">
+            <div class="about-container">
+                <div class="about-text">
+                    <h2>Sobre mí</h2>
+                    <p>Hola, soy Daniela, estudiante de Ingeniería de Sistemas. Me apasiona el desarrollo frontend y el
+                        diseño UI/UX. Me enfoco en construir interfaces web modernas, limpias y funcionales, siempre
+                        pensando en la experiencia del usuario.</p>
+                </div>
+                <div class="about-photo">
+                    <img src="assets/perfil.jpeg" alt="Foto de perfil">
+                </div>
+            </div>
+        </section>
 
-    <section id="projects">
-      <h2>Proyectos</h2>
-      <div class="projects-container">
-        <div class="card">
-          <img src="assets/proyecto1.jpg" alt="Proyecto 1">
-          <h3>Landing Page</h3>
-          <p>Landing page responsiva y moderna para promoción de servicios.</p>
-          <div class="tags">
-            <span><i class="fab fa-html5"></i> HTML</span>
-            <span><i class="fab fa-css3-alt"></i> CSS</span>
-            <span><i class="fab fa-js"></i> JavaScript</span>
-          </div>
-          <a class="btn" href="https://github.com/tuusuario/proyecto1" target="_blank">
-            <i class="fab fa-github"></i> Ver en GitHub
-          </a>
-        </div>
-        <div class="card">
-          <img src="assets/proyecto2.jpg" alt="Proyecto 2">
-          <h3>App de Tareas</h3>
-          <p>Aplicación web para gestionar tareas diarias, creada con React.</p>
-          <div class="tags">
-            <span><i class="fab fa-react"></i> React</span>
-            <span><i class="fab fa-css3-alt"></i> CSS</span>
-            <span><i class="fas fa-cloud"></i> API</span>
-          </div>
-          <a class="btn" href="https://github.com/tuusuario/proyecto2" target="_blank">
-            <i class="fab fa-github"></i> Ver en GitHub
-          </a>
-        </div>
-      </div>
-    </section>
+        <section id="projects">
+            <h2>Proyectos</h2>
+            <div class="projects-container">
+                <div class="card">
+                    <img src="assets/project1.jpeg" alt="Proyecto 1">
+                    <h3>Censo Digital</h3>
+                    <p>Desarrollo de censo digital para evitar formularios manuales y digitalizar el proceso.
+                        Tecnologías usadas: NetBeans, Java y MariaDB.</p>
+                    <div class="tags">
+                        <span><i class="fab fa-java"></i> Java</span>
+                        <span><i class="fas fa-database"></i> MariaDB</span>
+                        <span><i class="fas fa-code"></i> NetBeans</span>
+                    </div>
+                    <a class="btn" href="https://github.com/DanieZapata/Censo-Project" target="_blank">
+                        <i class="fab fa-github"></i> Ver en GitHub
+                    </a>
+                </div>
+                <div class="card">
+                    <img src="assets/project2.PNG" alt="Proyecto 2">
+                    <h3>Plataforma de Evaluación</h3>
+                    <p>Plataforma estilo Classroom para evaluar y asignar tareas a grupos de estudiantes. Permite
+                        registrar grupos de trabajo para su evaluación.</p>
+                    <div class="tags">
+                        <span><i class="fab fa-react"></i> React</span>
+                        <span><i class="fab fa-css3-alt"></i> Tailwind</span>
+                        <span><i class="fas fa-database"></i> PostgreSQL</span>
+                    </div>
+                    <a class="btn" href="https://github.com/LeoTorrico/M-tis-frontend" target="_blank">
+                        <i class="fab fa-github"></i> Ver en GitHub
+                    </a>
+                </div>
+                <div class="card">
+                    <img src="assets/project3.PNG" alt="Proyecto Parqueo UMSS">
+                    <h3>Parqueo UMSS</h3>
+                    <p>
+                        Página web responsive para gestionar espacios y tarifas del parqueo de la UMSS. Permite
+                        administrar usuarios, roles, espacios según vehículos vinculados y gestionar pagos.
+                        El frontend esta desarrollado con React y CSS y el backend está desarrollado con Spring Boot y
+                        PostgreSQL.
+                    </p>
+                    <div class="tags">
+                        <span><i class="fab fa-react"></i> React</span>
+                        <span><i class="fab fa-css3-alt"></i> CSS</span>
+                        <span><i class="fas fa-database"></i> PostgreSQL</span>
+                        <span><i class="fas fa-server"></i> Spring Boot</span>
+                    </div>
+                    <a class="btn" href="https://github.com/GiuliannoMorales/FrontendSindicato" target="_blank">
+                        <i class="fab fa-github"></i> Ver en GitHub
+                    </a>
+                </div>
 
-    <section id="contact">
-      <h2>Contacto</h2>
-      <p><i class="fas fa-envelope"></i> Email: zapataparidaniela@gmail.com</p>
-      <p><i class="fab fa-linkedin"></i> LinkedIn: <a href="http://www.linkedin.com/in/daniela-zapata-pari">Tu LinkedIn</a></p>
-    </section>
-  </main>
+                <div class="card">
+                    <img src="assets/project4.PNG" alt="Proyecto Sistema de Gestión de Farmacia">
+                    <h3>Sistema de Gestión de Farmacia</h3>
+                    <p>
+                        Aplicación web para la gestión de una farmacia, que permite administrar laboratorios y
+                        medicamentos vinculados, con funcionalidades para registrar, editar y controlar el inventario.
+                        Desarrollada con Angular, CSS y JavaScript en el frontend, y Spring Boot con PostgreSQL en el
+                        backend.
+                    </p>
+                    <div class="tags">
+                        <span><i class="fab fa-angular"></i> Angular</span>
+                        <span><i class="fab fa-css3-alt"></i> CSS</span>
+                        <span><i class="fab fa-js-square"></i> JavaScript</span>
+                        <span><i class="fas fa-server"></i> Spring Boot</span>
+                        <span><i class="fas fa-database"></i> PostgreSQL</span>
+                    </div>
+                    <a class="btn" href="https://github.com/DanieZapata/Pharmacy" target="_blank">
+                        <i class="fab fa-github"></i> Ver en GitHub
+                    </a>
+                </div>
+                <div class="card">
+                    <img src="assets/project2.PNG" alt="Proyecto 2">
+                    <h3>App de Tareas</h3>
+                    <p>Aplicación web para gestionar tareas diarias, creada con React.</p>
+                    <div class="tags">
+                        <span><i class="fab fa-react"></i> React</span>
+                        <span><i class="fab fa-css3-alt"></i> CSS</span>
+                        <span><i class="fas fa-cloud"></i> API</span>
+                    </div>
+                    <a class="btn" href="https://github.com/LeoTorrico/M-tis-frontend" target="_blank">
+                        <i class="fab fa-github"></i> Ver en GitHub
+                    </a>
+                </div>
+                <div class="card">
+                    <img src="assets/project2.PNG" alt="Proyecto 2">
+                    <h3>App de Tareas</h3>
+                    <p>Aplicación web para gestionar tareas diarias, creada con React.</p>
+                    <div class="tags">
+                        <span><i class="fab fa-react"></i> React</span>
+                        <span><i class="fab fa-css3-alt"></i> CSS</span>
+                        <span><i class="fas fa-cloud"></i> API</span>
+                    </div>
+                    <a class="btn" href="https://github.com/LeoTorrico/M-tis-frontend" target="_blank">
+                        <i class="fab fa-github"></i> Ver en GitHub
+                    </a>
+                </div>
+            </div>
+        </section>
 
-  <footer>
-    <p>&copy; 2025 Daniela Zapata</p>
-  </footer>
+        <section id="contact">
+            <h2>Contacto</h2>
+            <p><i class="fas fa-envelope"></i> Email: zapataparidaniela@gmail.com</p>
+            <p><i class="fab fa-linkedin"></i> LinkedIn: <a
+                    href="http://www.linkedin.com/in/daniela-zapata-pari">http://www.linkedin.com/in/daniela-zapata-pari</a>
+            </p>
+        </section>
+    </main>
 
-  <script src="script.js"></script>
+    <footer>
+        <p>&copy; 2025 Daniela Zapata</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
