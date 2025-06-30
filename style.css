@@ -34,7 +34,7 @@ body {
 }
 
 main{
- padding: 0 100px;
+ padding: 0;
 }
 
 @keyframes gradient {
